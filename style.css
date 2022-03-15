@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(40, 172, 161, 0.3);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 70px;
+}
+
+.nav-header .nav-logo {
+  padding-left: 20px;
+  margin: 0;
+  line-height: 60px;
+  font-size: 1.5rem;
+}
+
+.nav-header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 70px;
+}
+
+.nav-header ul li {
+  list-style: none;
+  padding: 0 15px;
+  font-weight: bold;
+}
+
+.nav-header ul a {
+  text-decoration: none;
+  color: #111010;
+}
+
+.nav-header .fas {
+  padding-right: 20px;
+  line-height: 70px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin-top: 70px;
+}
+
+.main .bg-content {
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.377);
+  width: 27vw;
+  height: 40vh;
+  position: relative;
+  left: 150px;
+  top: 150px;
+  padding: 50px 0 0 40px;
+}
+
+.main .bg-content .bg-box {
+  position: absolute;
+  width: 70px;
+  height: 110px;
+  left: 20px;
+  bottom: 90%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#225a5a), color-stop(#bfffff), to(blue));
+  background-image: linear-gradient(#225a5a, #bfffff, blue);
+}
+
+.main .bg-content h2 {
+  font-size: 2.8rem;
+}
+
+.main .bg-image {
+  background-image: url(images/chairset.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70vw;
+  height: 100vh;
+}
+
+.trusted-companies {
+  width: 100%;
+  height: 30vh;
+  margin-top: 50px;
+  background-color: rgba(93, 134, 130, 0.363);
+}
+
+.trusted-companies h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.trusted-companies .trusted-partners {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 50px;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.trusted-companies .trusted-partners .partner {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+.deals {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.deals div {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.about-head {
+  text-align: center;
+}
+
+.about-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-bg .about-content {
+  width: 50vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.product-head ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product-head ul li {
+  list-style: none;
+  padding: 0 25px;
+}
+
+.product-head ul a {
+  text-decoration: none;
+  color: grey;
+}
+
+.product-images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.testimony {
+  height: 80vh;
+  background-color: rgba(93, 134, 130, 0.363);
+}
+
+.testimony .happy-client {
+  text-align: center;
+}
+
+.testimony .client {
+  width: 70%;
+  margin: auto;
+}
+
+.testimony .client div {
+  line-height: 2;
+  width: 75%;
+}
+
+.testimony .client .client-image {
+  float: left;
+  margin-right: 50px;
+}
+
+footer {
+  height: 60vh;
+  background-color: #28aca1;
+}
+
+footer .footer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 50px;
+}
+
+footer .footer-contents {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .footer-contents ul li {
+  list-style: none;
+}
+
+footer .footer-contents ul li a {
+  text-decoration: none;
+  line-height: 2;
+}
+/*# sourceMappingURL=style.css.map */

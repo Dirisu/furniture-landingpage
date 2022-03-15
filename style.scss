@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(40, 172, 161, 0.3);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 70px;
+
+    .nav-logo {
+        padding-left: 20px;
+        margin: 0;
+        line-height: 60px;
+        font-size: 1.5rem;
+    }
+
+    ul{
+        display: flex;
+        line-height: 70px;
+
+        li{
+            list-style: none;
+            padding: 0 15px;
+            font-weight: bold;
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(17, 16, 16);
+        }
+    }
+
+    .fas{
+        padding-right: 20px;
+        line-height: 70px;
+    }
+}
+
+.main{
+    display: flex;
+    width: 90%;
+    margin-top: 70px;
+
+    .bg-content{
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.377);
+    width: 27vw;
+    height: 40vh;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    padding: 50px 0 0 40px;
+
+    .bg-box{
+        position: absolute;
+        width: 70px;
+        height: 110px;
+        left: 20px;
+        bottom: 90%;
+        background-image: linear-gradient(rgb(34, 90, 90), rgb(191, 255, 255), blue);
+    }
+
+    h2{
+        font-size: 2.8rem;
+    }
+
+//     @media (max-width: 900px) {
+//     height: 20vh;
+//     width: 50%;
+// }
+
+}
+
+.bg-image{
+    background-image: url(images/chairset.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70vw;
+    height: 100vh;
+}
+}
+
+
+
+
+
+.trusted-companies{
+    width: 100%;
+    height: 30vh;
+    margin-top: 50px;
+    background-color: rgba(93, 134, 130, 0.363);
+
+    h2{
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .trusted-partners{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 50px;
+        width: 70%;
+        margin: 30px auto;
+
+        .partner{
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+.deals{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    div{
+        height: 150px;
+        width: 150px;
+        border: 1px solid black;
+        padding: 20px;
+
+    }
+}
+
+.about-head{
+    text-align: center;
+}
+.about-bg{
+    display: flex;
+
+    .about-content{
+        width: 50vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.product-head{
+    ul{
+        display: flex;
+        justify-content: center;
+
+        li{
+            list-style: none;
+            padding: 0 25px;
+        }
+
+        a{
+            text-decoration: none;
+            color: grey;
+        }
+    }
+}
+
+.product-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.testimony{
+    height: 80vh;
+    background-color: rgba(93, 134, 130, 0.363);
+
+    .happy-client{
+        text-align: center;
+    }
+
+    .client{
+        width: 70%;
+        margin: auto;
+
+        div{
+                line-height: 2;
+                width: 75%;
+            }
+
+        .client-image{
+            float: left;
+            margin-right: 50px;
+            
+        }
+    }
+}
+
+footer{
+    height: 60vh;
+    background-color: rgb(40, 172, 161);
+
+    .footer1{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+    }
+
+    .footer-contents{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        ul{
+
+            li{
+                list-style: none;
+
+                a{
+                    text-decoration: none;
+                    line-height: 2;
+                }
+            }
+        }
+    }
+}
